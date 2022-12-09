@@ -227,4 +227,16 @@ nav {
     #about-picture {
         margin-bottom: 20px;
     }
+
+    /* Skills */
+
+    #skill-cards-container {
+        flex-direction: column;
+    }
+
+    .skill-card {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 24px;
+    }
 }
