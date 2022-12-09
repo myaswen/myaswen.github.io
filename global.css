@@ -110,8 +110,65 @@ nav {
     filter: grayscale();
 }
 
+/* Skills */
+
+#skills-container {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#skill-cards-container {
+    display: flex;
+}
+
+.skill-card {
+    width: 30%;
+    padding: 14px;
+    margin-right: 24px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+}
+
+.skill-card > div {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    color: #909090;
+}
+
+.skill-card i {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+#skill-card-one {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        /* linear-gradient(90deg, rgba(62,180,58,1) 0%, rgba(29,188,253,1) 50%, rgba(131,58,180,1) 100%) border-box; */
+        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
+}
+
+#skill-card-two {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        /* linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) border-box; */
+        linear-gradient(90deg, rgb(212, 117, 117) 0%, rgb(106, 222, 212) 50%) border-box;
+}
+
+#skill-card-three {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        /* linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(29,188,253,1) 50%, rgba(73,180,58,1) 100%) border-box; */
+        linear-gradient(90deg, rgb(106, 222, 212) 0%, rgb(127, 105, 217) 50%) border-box;
+}
+
+/* Projects */
+
 #projects-container {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -124,15 +181,18 @@ nav {
     border-radius: 14px;
 }
 
-.border-test {
+/* .border-test {
     background:
         linear-gradient(#0e0e0e 0 0) padding-box,
         linear-gradient(90deg, #37e1ff, #d61fea) border-box;
     border: 3px solid transparent;
     border-radius: 8px;
-}
+} */
 
 @media screen and (max-width: 375px) {
+
+    /* Body */
+
     #body-wrapper {
         width: 300px;
         margin-top: 40px;
@@ -142,9 +202,13 @@ nav {
         display: none;
     }
 
+    /* Nav */
+
     nav {
         justify-content: center;
     }
+
+    /* About */
 
     #about-container {
         flex-direction: column-reverse;
