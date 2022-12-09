@@ -147,16 +147,6 @@ Section: Header
 
 /*
 --------------------------------------------------
-Section: About
---------------------------------------------------
-*/
-
-#about-container p {
-    text-align: justify;
-}
-
-/*
---------------------------------------------------
 Section: Skills
 --------------------------------------------------
 */
@@ -270,13 +260,6 @@ Section: Dynamic sizing
 
     #header-picture {
         margin-bottom: 20px;
-    }
-
-    /* About */
-
-    #about-container p {
-        font-size: 11px;
-        /* text-align: left; */
     }
 
     /* Skills */
