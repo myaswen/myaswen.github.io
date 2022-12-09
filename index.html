@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="global.css">
     <title>Max Yaswen</title>
 </head>
+
 <body>
     <div id="body-wrapper">
 
@@ -20,9 +22,9 @@
                 <a href="">Contact</a>
             </div>
             <div id="nav-right-container">
-                <div><i class="fa-brands fa-github"></i></div>
-                <div><i class="fa-brands fa-linkedin-in"></i></div>
-                <div><i class="fa-brands fa-angellist"></i></div>
+                <div class="gr1"><i class="fa-brands fa-github"></i></div>
+                <div class="gr2"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="gr3"><i class="fa-brands fa-angellist"></i></div>
             </div>
         </nav>
 
@@ -37,28 +39,37 @@
         </div>
 
         <div id="about-container">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <div id="about-text-container">
                 <p>
-                    Prior to studying software, I started my professional career as a team lead in construction. As a team lead, it was often my responsibility to conduct hiring trials and train new team members. What made a candidate stand out to me in these trials, and going forward as a member of our team, was not the specialized knowledge they already had to their advantage, but their genuine willingness and passion towards learning and problem-solving. As I transition from building homes to building software, I believe that this attitude is my most valuable asset.
+                    Prior to studying software, I started my professional career as a team lead in construction. As a
+                    team lead, it was often my responsibility to conduct hiring trials and train new team members. What
+                    made a candidate stand out to me in these trials, and going forward as a member of our team, was not
+                    the specialized knowledge they already had to their advantage, but their genuine willingness and
+                    passion towards learning and problem-solving. As I transition from building homes to building
+                    software, I believe that this attitude is my most valuable asset.
                 </p>
                 <p>
-                    I've spent the last several months practicing critical thinking with a software focus, learning new libraries and programming principles along the way. In that same time I've deployed a few web applications using React.js with Redux for the front-end, and an Express.js or Flask server for the back-end. I used SCRUM methodologies to manage project timelines, and Git for version control. Head straight over to my GitHub or continue scrolling to check out these projects!
+                    I've spent the last several months practicing critical thinking with a software focus, learning new
+                    libraries and programming principles along the way. In that same time I've deployed a few web
+                    applications using React.js with Redux for the front-end, and an Express.js or Flask server for the
+                    back-end. I used SCRUM methodologies to manage project timelines, and Git for version control. Head
+                    straight over to my GitHub or continue scrolling to check out these projects!
                 </p>
             </div>
         </div>
 
         <div id="skills-container">
-            <h2>Skills</h2>
+            <h2>Technical Skills</h2>
             <div id="skill-cards-container">
-                <div class="skill-card" id="skill-card-one">
+                <div class="skill-card gr4" id="skill-card-one">
                     <div><i class="devicon-javascript-plain"></i>JavaScript</div>
                     <div><i class="devicon-html5-plain"></i>HTML</div>
                     <div><i class="devicon-css3-plain"></i>CSS</div>
                     <div><i class="devicon-react-original"></i>React.js</div>
                     <div><i class="devicon-redux-original"></i>Redux.js</div>
                 </div>
-                <div class="skill-card" id="skill-card-two">
+                <div class="skill-card gr5" id="skill-card-two">
                     <div><i class="devicon-express-original"></i>Express.js</div>
                     <div><i class="devicon-sequelize-plain"></i>Sequelize</div>
                     <div><i class="devicon-flask-original"></i>Flask</div>
@@ -66,32 +77,95 @@
                     <div><i class="devicon-sqlite-plain"></i>SQLite</div>
                     <div><i class="devicon-postgresql-plain"></i>PostgreSQL</div>
                 </div>
-                <!-- <div class="skill-card" id="skill-card-three">
-                    <div><i class="fa-solid fa-angle-right"></i></i>Agile</div>
-                    <div><i class="fa-solid fa-angle-right"></i></i></i>Waterfall</div>
-                    <div><i class="fa-solid fa-angle-right"></i>Pair Programming</div>
-                </div> -->
             </div>
         </div>
         <div id="projects-container">
-            <h2>Projects</h2>
+            <h2>Recent Projects</h2>
+
+            <!-- PROJECT 1 -->
+            <!-- <div class="divider-1"></div> -->
             <div class="project-section">
                 <div class="project-desc">
                     <h3>Gloom</h3>
-                    <p>My most recent project is Gloom, a note-taking web app inspired by Evernote.com. In gloom, I implemented an intuitive, feature-rich user interface utilizing React-Router to facilitate ease of navigation and data management. I also improved user experience by implementing support for rich-text utilizing the React-Quill library.</p>
-                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <div>
+                        My most recent project is Gloom, a note-taking web app inspired by Evernote.com. In gloom, I
+                        implemented an intuitive, feature-rich user interface utilizing React-Router to facilitate ease
+                        of navigation and data management. I also improved user experience by implementing support for
+                        rich-text utilizing the React-Quill library.
+                    </div>
+                    <div class="project-buttons">
+                        <a href="">
+                            <div class="button-1 gr1">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="button-1 gr3">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                Live
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-img" id="project-img-one">
-                    <img src="./static/gloom-prev.png" alt="Gloom preview">
+                <img src="./static/gloom-prev.png" alt="Gloom preview">
+            </div>
+            <!-- <div class="divider-1"></div> -->
+
+            <!-- PROJECT 2 -->
+            <div class="project-section">
+                <div class="project-desc">
+                    <h3>Scuttlr</h3>
+                    <div>
+                        My most recent project is Gloom, a note-taking web app inspired by Evernote.com. In gloom, I
+                        implemented an intuitive, feature-rich user interface utilizing React-Router to facilitate ease
+                        of navigation and data management. I also improved user experience by implementing support for
+                        rich-text utilizing the React-Quill library.
+                    </div>
+                    <div class="project-buttons">
+                        <a href="">
+                            <div class="button-1 gr1">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="button-1 gr3">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                Live
+                            </div>
+                        </a>
+                    </div>
                 </div>
+                <img src="./static/scuttlr-prev.png" alt="Scuttlr preview">
             </div>
 
-            <div class="project-section" id="project-card-two">
-                content
-            </div>
-
-            <div class="project-section" id="project-card-three">
-                content
+            <!-- PROJECT 3 -->
+            <div class="project-section">
+                <div class="project-desc">
+                    <h3>TbdBnB</h3>
+                    <div>
+                        My most recent project is Gloom, a note-taking web app inspired by Evernote.com. In gloom, I
+                        implemented an intuitive, feature-rich user interface utilizing React-Router to facilitate ease
+                        of navigation and data management. I also improved user experience by implementing support for
+                        rich-text utilizing the React-Quill library.
+                    </div>
+                    <div class="project-buttons">
+                        <a href="">
+                            <div class="button-1 gr1">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="button-1 gr3">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                Live
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <img src="./static/tbdbnb-prev.png" alt="TbdBnB preview">
             </div>
 
         </div>
@@ -99,4 +173,5 @@
 
     </div>
 </body>
+
 </html>

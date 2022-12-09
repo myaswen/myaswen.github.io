@@ -7,6 +7,8 @@
 
 a {
     text-decoration: none;
+    display: block;
+    width: fit-content;
 }
 
 html,
@@ -26,7 +28,37 @@ body {
     width: 675px;
 }
 
-/* Navigation */
+.button-1 {
+    width: fit-content;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1:hover {
+    scale: 110%;
+}
+
+.button-1 i {
+    margin-right: 6px;
+}
+
+/* .divider-1 {
+    width: 100%;
+    height: 2px;
+    background-color: #cccccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+/*
+--------------------------------------------------
+Section: Navigation
+--------------------------------------------------
+*/
 
 nav {
     width: 100%;
@@ -58,7 +90,7 @@ nav {
     width: 30px;
     height: 30px;
     border-radius: 6px;
-    border: 1px solid #cccccc;
+    border: 1px solid transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +105,11 @@ nav {
     font-size: 16px;
 }
 
-/* Header */
+/*
+--------------------------------------------------
+Section: Header
+--------------------------------------------------
+*/
 
 #header-container {
     margin-top: 60px;
@@ -109,14 +145,21 @@ nav {
     filter: grayscale();
 }
 
-/* About */
+/*
+--------------------------------------------------
+Section: About
+--------------------------------------------------
+*/
 
 #about-container p {
-    /* color: #909090; */
     text-align: justify;
 }
 
-/* Skills */
+/*
+--------------------------------------------------
+Section: Skills
+--------------------------------------------------
+*/
 
 #skills-container {
     margin-top: 40px;
@@ -137,7 +180,7 @@ nav {
     border-radius: 8px;
 }
 
-.skill-card > div {
+.skill-card>div {
     display: flex;
     align-items: center;
     margin: 8px;
@@ -149,86 +192,46 @@ nav {
     margin-right: 8px;
 }
 
-#skill-card-one {
-    background:
-        linear-gradient(#0e0e0e 0 0) padding-box,
-        /* linear-gradient(90deg, rgba(62,180,58,1) 0%, rgba(29,188,253,1) 50%, rgba(131,58,180,1) 100%) border-box; */
-        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
-}
-
-#skill-card-two {
-    background:
-        linear-gradient(#0e0e0e 0 0) padding-box,
-        /* linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) border-box; */
-        linear-gradient(90deg, rgb(212, 117, 117) 0%, rgb(106, 222, 212) 50%) border-box;
-}
-
-#skill-card-three {
-    background:
-        linear-gradient(#0e0e0e 0 0) padding-box,
-        /* linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(29,188,253,1) 50%, rgba(73,180,58,1) 100%) border-box; */
-        linear-gradient(90deg, rgb(106, 222, 212) 0%, rgb(127, 105, 217) 50%) border-box;
-}
-
-/* Projects */
+/*
+--------------------------------------------------
+Section: Projects
+--------------------------------------------------
+*/
 
 #projects-container {
     margin-top: 40px;
     width: 100%;
 }
 
-/* #projects-container>div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-} */
-
 .project-section {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 40px;
 }
 
-.project-img {
-    /* border: 3px solid red; */
-    border: 3px solid transparent;
-    border-radius: 8px;
-    overflow: hidden;
+.project-section h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 
-.project-desc {
-    /* font-size: 12px; */
+.project-buttons {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project-section img {
     width: 100%;
-    /* max-width: 100%; */
-    object-fit: cover;
 }
 
-/* #project-img-one {
-    background:
-        linear-gradient(#0e0e0e 0 0) padding-box,
-        linear-gradient(90deg, rgb(106, 222, 212) 0%, rgb(127, 105, 217) 50%) border-box;
-} */
-
-/* .border-test {
-    background:
-        linear-gradient(#0e0e0e 0 0) padding-box,
-        linear-gradient(90deg, #37e1ff, #d61fea) border-box;
-    border: 3px solid transparent;
-    border-radius: 8px;
-} */
-
-.gradient-border {
-    background:
-        linear-gradient(#0e0e0e 0 0) padding-box,
-        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
-    border: 3px solid transparent;
-    border-radius: 8px;
-}
+/*
+--------------------------------------------------
+Section: Dynamic sizing
+--------------------------------------------------
+*/
 
 @media screen and (max-width: 375px) {
 
@@ -289,8 +292,49 @@ nav {
     }
 }
 
-/* @media screen and (min-width: 1000px) {
-    .project-card:hover {
-        scale: 140%;
-    }
+/*
+--------------------------------------------------
+Section: Border Gradients
+--------------------------------------------------
+*/
+
+.gr1 {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        linear-gradient(90deg, rgb(203, 98, 201) 0%, rgb(116, 207, 223) 50%) border-box;
+}
+
+.gr2 {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        linear-gradient(90deg, rgb(106, 101, 175) 0%, rgb(64, 216, 155) 50%) border-box;
+}
+
+.gr3 {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        linear-gradient(90deg, rgb(203, 98, 121) 0%, rgb(213, 157, 82) 50%) border-box;
+}
+
+.gr4 {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        /* linear-gradient(90deg, rgba(62,180,58,1) 0%, rgba(29,188,253,1) 50%, rgba(131,58,180,1) 100%) border-box; */
+        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
+}
+
+.gr5 {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        /* linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) border-box; */
+        linear-gradient(90deg, rgb(212, 117, 117) 0%, rgb(106, 222, 212) 50%) border-box;
+}
+
+
+/* .gradient-border {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
+    border: 3px solid transparent;
+    border-radius: 8px;
 } */
