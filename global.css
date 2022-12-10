@@ -239,7 +239,25 @@ Section: Contact
 #contact-container form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 430px;
+}
+
+#contact-container button {
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    border-radius: 6px;
+    /* width: 100px; */
+    height: 32px;
+    color: #525252;
+    font-size: 12px;
+}
+
+#contact-container button:hover {
+    cursor: pointer;
+    background:
+        linear-gradient(#1a1a1a 0 0) padding-box,
+        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
+    border: 1px solid transparent;
 }
 
 #contact-container input {
@@ -304,7 +322,7 @@ Section: Contact
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 #contact-right a {
@@ -316,9 +334,6 @@ Section: Contact
     padding: 6px;
     border-radius: 6px;
     border: 1px solid transparent;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     margin-bottom: 16px;
 }
 
