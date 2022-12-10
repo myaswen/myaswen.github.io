@@ -228,6 +228,7 @@ Section: Contact
 #contact-container {
     margin-bottom: 200px;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 #contact-options {
@@ -241,18 +242,6 @@ Section: Contact
     width: 300px;
 }
 
-/* #contact-message-wrapper {
-    border-radius: 8px;
-    overflow: hidden;
-    height: 200px;
-}
-
-#contact-message-wrapper textarea {
-    width: 100%;
-    height: 100%;
-    resize: none;
-} */
-
 #contact-container input {
     background-color: #1a1a1a;
     border: 1px solid #262626;
@@ -263,7 +252,6 @@ Section: Contact
 
 #contact-container input:focus {
     outline: none;
-    /* border: 1px solid goldenrod; */
     background:
         linear-gradient(#1a1a1a 0 0) padding-box,
         linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
@@ -273,7 +261,6 @@ Section: Contact
 #message-container {
     height: 250px;
     margin-bottom: 16px;
-    /* border: 1px solid red; */
     border: 1px solid #262626;
     overflow: hidden;
     border-radius: 8px;
@@ -283,21 +270,13 @@ Section: Contact
 }
 
 #contact-container textarea {
-    /* height: 200px; */
     width: 100%;
     height: 216px;
-
-    /* height: 100%; */
     resize: none;
     background-color: #1a1a1a;
-    /* border: 1px solid #262626; */
     border: none;
     border-top: 1px solid #262626;
-    /* border-top-left-radius: 8px; */
-    /* border-bottom-left-radius: 8px; */
     padding: 8px 14px 14px 14px;
-    /* margin-bottom: 16px; */
-    /* border-top: 32px solid transparent; */
     font-size: 14px;
 }
 
@@ -306,7 +285,6 @@ Section: Contact
 }
 
 #message-container:focus-within {
-    /* border: 1px solid goldenrod; */
     background:
         linear-gradient(#1a1a1a 0 0) padding-box,
         linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
@@ -320,6 +298,28 @@ Section: Contact
     left: 10px;
     font-size: 12px;
     color: #525252;
+}
+
+#contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+#contact-right a {
+    margin-bottom: 16px;
+}
+
+.contact-card {
+    width: fit-content;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 16px;
 }
 
 /*
