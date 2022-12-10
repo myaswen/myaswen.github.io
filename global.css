@@ -160,14 +160,16 @@ Section: Skills
 
 #skill-cards-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .skill-card {
     width: 30%;
     padding: 14px;
-    margin-right: 24px;
-    border: 3px solid transparent;
+    /* margin-right: 24px; */
+    border: 1px solid transparent;
     border-radius: 8px;
+    height: fit-content;
 }
 
 .skill-card>div {
@@ -215,6 +217,22 @@ Section: Projects
 
 .project-section img {
     width: 100%;
+}
+
+/*
+--------------------------------------------------
+Section: Contact
+--------------------------------------------------
+*/
+
+#contact-container {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#contact-container form {
+    display: flex;
+    flex-direction: column;
 }
 
 /*
@@ -284,19 +302,22 @@ Section: Border Gradients
 .gr1 {
     background:
         linear-gradient(#0e0e0e 0 0) padding-box,
-        linear-gradient(90deg, rgb(203, 98, 201) 0%, rgb(116, 207, 223) 50%) border-box;
+        /* linear-gradient(90deg, rgb(203, 98, 201) 0%, rgb(116, 207, 223) 50%) border-box; */
+        linear-gradient(90deg, rgb(233, 75, 75) 0%, rgb(230, 179, 77) 50%) border-box;
 }
 
 .gr2 {
     background:
         linear-gradient(#0e0e0e 0 0) padding-box,
-        linear-gradient(90deg, rgb(106, 101, 175) 0%, rgb(64, 216, 155) 50%) border-box;
+        /* linear-gradient(90deg, rgb(106, 101, 175) 0%, rgb(64, 216, 155) 50%) border-box; */
+        linear-gradient(90deg, rgb(230, 179, 77) 0%, rgb(64, 216, 155) 50%) border-box;
 }
 
 .gr3 {
     background:
         linear-gradient(#0e0e0e 0 0) padding-box,
-        linear-gradient(90deg, rgb(203, 98, 121) 0%, rgb(213, 157, 82) 50%) border-box;
+        /* linear-gradient(90deg, rgb(203, 98, 121) 0%, rgb(213, 157, 82) 50%) border-box; */
+        linear-gradient(90deg, rgb(64, 216, 155) 0%, rgb(82, 91, 213) 50%) border-box;
 }
 
 .gr4 {
@@ -311,6 +332,13 @@ Section: Border Gradients
         linear-gradient(#0e0e0e 0 0) padding-box,
         /* linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) border-box; */
         linear-gradient(90deg, rgb(212, 117, 117) 0%, rgb(106, 222, 212) 50%) border-box;
+}
+
+.gr6 {
+    background:
+        linear-gradient(#0e0e0e 0 0) padding-box,
+        /* linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) border-box; */
+        linear-gradient(90deg, rgb(106, 222, 212) 0%, rgb(100, 98, 203) 50%) border-box;
 }
 
 
