@@ -226,13 +226,100 @@ Section: Contact
 */
 
 #contact-container {
-    margin-bottom: 40px;
+    margin-bottom: 200px;
     width: 100%;
+}
+
+#contact-options {
+    display: flex;
+    justify-content: space-between;
 }
 
 #contact-container form {
     display: flex;
     flex-direction: column;
+    width: 300px;
+}
+
+/* #contact-message-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 200px;
+}
+
+#contact-message-wrapper textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+} */
+
+#contact-container input {
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 24px 8px 8px 8px;
+    margin-bottom: 16px;
+}
+
+#contact-container input:focus {
+    outline: none;
+    /* border: 1px solid goldenrod; */
+    background:
+        linear-gradient(#1a1a1a 0 0) padding-box,
+        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
+    border: 1px solid transparent;
+}
+
+#message-container {
+    height: 250px;
+    margin-bottom: 16px;
+    /* border: 1px solid red; */
+    border: 1px solid #262626;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: flex-end;
+}
+
+#contact-container textarea {
+    /* height: 200px; */
+    width: 100%;
+    height: 216px;
+
+    /* height: 100%; */
+    resize: none;
+    background-color: #1a1a1a;
+    /* border: 1px solid #262626; */
+    border: none;
+    border-top: 1px solid #262626;
+    /* border-top-left-radius: 8px; */
+    /* border-bottom-left-radius: 8px; */
+    padding: 8px 14px 14px 14px;
+    /* margin-bottom: 16px; */
+    /* border-top: 32px solid transparent; */
+    font-size: 14px;
+}
+
+#contact-container textarea:focus {
+    outline: none;
+}
+
+#message-container:focus-within {
+    /* border: 1px solid goldenrod; */
+    background:
+        linear-gradient(#1a1a1a 0 0) padding-box,
+        linear-gradient(90deg, rgb(100, 98, 203) 0%, rgb(212, 117, 117) 50%) border-box;
+    border: 1px solid transparent;
+}
+
+#contact-container label {
+    height: 0px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    font-size: 12px;
+    color: #525252;
 }
 
 /*
@@ -288,7 +375,6 @@ Section: Dynamic sizing
 
     .skill-card {
         width: 100%;
-        margin-right: 0px;
         margin-bottom: 24px;
     }
 }
