@@ -226,7 +226,8 @@ Section: Contact
 */
 
 #contact-container {
-    margin-bottom: 200px;
+    /* margin-bottom: 280px; */
+    margin-bottom: 80px;
     width: 100%;
     /* border: 1px solid red; */
 }
@@ -339,6 +340,18 @@ Section: Contact
 
 /*
 --------------------------------------------------
+Section: Footer
+--------------------------------------------------
+*/
+
+#footer-container {
+    color: #525252;
+    margin: 12px;
+    font-size: 12px;
+}
+
+/*
+--------------------------------------------------
 Section: Dynamic sizing
 --------------------------------------------------
 */
@@ -397,12 +410,16 @@ Section: Dynamic sizing
 
     #contact-options {
         flex-direction: column;
-        height: 620px;
+        height: 680px;
         /* border: 1px solid red; */
     }
 
     #contact-container form {
         width: 100%;
+    }
+
+    #contact-container {
+        margin-bottom: 20px;
     }
 
     #contact-right {
