@@ -86,7 +86,7 @@ nav {
     font-size: 42px;
 }
 
-#nav-right-container>div {
+#nav-right-container div {
     width: 30px;
     height: 30px;
     border-radius: 6px;
@@ -96,12 +96,12 @@ nav {
     align-items: center;
 }
 
-#nav-right-container>div:hover {
+#nav-right-container div:hover {
     scale: 110%;
     cursor: pointer;
 }
 
-#nav-right-container>div>i {
+#nav-right-container div > i {
     font-size: 16px;
 }
 
