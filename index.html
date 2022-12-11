@@ -8,12 +8,14 @@
     <script src="https://kit.fontawesome.com/cd0b832a9e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="global.css">
+    <link rel="shortcut icon" href="./static/favicon.ico" type="image/x-icon">
     <title>Max Yaswen</title>
 </head>
 
 <body>
     <div id="body-wrapper">
 
+        <!-- Nav Bar -->
         <nav>
             <div id="nav-left-container">
                 <a href="#about-container">About</a>
@@ -34,6 +36,7 @@
             </div>
         </nav>
 
+        <!-- Header -->
         <div id="header-container">
             <div id="header-text">
                 <h1 id="header-name">Max Yaswen</h1>
@@ -44,6 +47,7 @@
             </div>
         </div>
 
+        <!-- About -->
         <div id="about-container">
             <h2>About Me</h2>
             <div id="about-text-container">
@@ -65,29 +69,24 @@
             </div>
         </div>
 
+        <!-- Skills -->
         <div id="skills-container">
             <h2>Technical Skills</h2>
             <div id="skill-cards-container">
-                <div class="skill-card gr4" id="skill-card-one">
+                <div class="skill-card gr4">
                     <div><i class="devicon-javascript-plain"></i>JavaScript</div>
                     <div><i class="devicon-html5-plain"></i>HTML</div>
                     <div><i class="devicon-css3-plain"></i>CSS</div>
                     <div><i class="devicon-react-original"></i>React.js</div>
                     <div><i class="devicon-redux-original"></i>Redux.js</div>
                 </div>
-                <div class="skill-card gr5" id="skill-card-two">
+                <div class="skill-card gr5">
                     <div><i class="devicon-python-plain"></i>Python</div>
                     <div><i class="devicon-express-original"></i>Express.js</div>
-                    <!-- <div><i class="devicon-sequelize-plain"></i>Sequelize</div> -->
                     <div><i class="devicon-flask-original"></i>Flask</div>
-                    <!-- <div><i class="devicon-sqlalchemy-plain"></i>SQLAlchemy</div> -->
-                    <!-- <div><i class="devicon-sqlite-plain"></i>SQLite</div> -->
-                    <!-- <div><i class="devicon-postgresql-plain"></i>PostgreSQL</div> -->
                 </div>
-                <div class="skill-card gr6" id="skill-card-three">
-                    <!-- <div><i class="devicon-express-original"></i>Express.js</div> -->
+                <div class="skill-card gr6">
                     <div><i class="devicon-sequelize-plain"></i>Sequelize</div>
-                    <!-- <div><i class="devicon-flask-original"></i>Flask</div> -->
                     <div><i class="devicon-sqlalchemy-plain"></i>SQLAlchemy</div>
                     <div><i class="devicon-sqlite-plain"></i>SQLite</div>
                     <div><i class="devicon-postgresql-plain"></i>PostgreSQL</div>
@@ -95,10 +94,11 @@
             </div>
         </div>
 
+        <!-- Projects -->
         <div id="projects-container">
             <h2>Recent Projects</h2>
 
-            <!-- PROJECT 1 -->
+            <!-- Gloom -->
             <div class="project-section">
                 <div class="project-desc-container">
                     <h3>Gloom</h3>
@@ -127,7 +127,7 @@
                 <img src="./static/gloom-prev.png" alt="Gloom preview">
             </div>
 
-            <!-- PROJECT 3 -->
+            <!-- TbdBnB -->
             <div class="project-section">
                 <div class="project-desc">
                     <h3>TbdBnB</h3>
@@ -154,7 +154,7 @@
                 <img src="./static/tbdbnb-prev.png" alt="TbdBnB preview">
             </div>
 
-            <!-- PROJECT 2 -->
+            <!-- Scuttlr -->
             <div class="project-section">
                 <div class="project-desc">
                     <h3>Scuttlr</h3>
@@ -191,22 +191,18 @@
             <div id="contact-options">
 
                 <div id="contact-left">
-                    <!-- <h3>Via Form</h3> -->
                     <form action="https://formspree.io/f/mbjbnpbo" method="POST">
                         <label>Email</label>
                         <input type="email" name="email" required>
                         <label>Message</label>
                         <div id="message-container">
-                            <textarea name="message" required>
-                            </textarea>
+                            <textarea name="message" required></textarea>
                         </div>
                         <button type="submit">Send</button>
                     </form>
                 </div>
 
                 <div id="contact-right">
-                    <!-- <h3>Directly</h3> -->
-
                     <a href="https://github.com/myaswen" target="_blank" rel="noopener noreferrer">
                         <div class="button-1 gr1">
                             <i class="fa-brands fa-github"></i>

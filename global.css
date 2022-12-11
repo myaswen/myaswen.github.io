@@ -46,14 +46,6 @@ body {
     margin-right: 6px;
 }
 
-/* .divider-1 {
-    width: 100%;
-    height: 2px;
-    background-color: #cccccc;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-
 /*
 --------------------------------------------------
 Section: Navigation
@@ -166,7 +158,6 @@ Section: Skills
 .skill-card {
     width: 30%;
     padding: 14px;
-    /* margin-right: 24px; */
     border: 1px solid transparent;
     border-radius: 8px;
     height: fit-content;
@@ -226,10 +217,8 @@ Section: Contact
 */
 
 #contact-container {
-    /* margin-bottom: 280px; */
     margin-bottom: 80px;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 #contact-options {
@@ -247,7 +236,6 @@ Section: Contact
     background-color: #1a1a1a;
     border: 1px solid #262626;
     border-radius: 6px;
-    /* width: 100px; */
     height: 32px;
     color: #525252;
     font-size: 12px;
@@ -344,11 +332,11 @@ Section: Footer
 --------------------------------------------------
 */
 
-#footer-container {
+/* #footer-container {
     color: #525252;
     margin: 12px;
     font-size: 12px;
-}
+} */
 
 /*
 --------------------------------------------------
@@ -411,7 +399,6 @@ Section: Dynamic sizing
     #contact-options {
         flex-direction: column;
         height: 680px;
-        /* border: 1px solid red; */
     }
 
     #contact-container form {
