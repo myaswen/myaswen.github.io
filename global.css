@@ -392,6 +392,22 @@ Section: Dynamic sizing
         width: 100%;
         margin-bottom: 24px;
     }
+
+    /* Contact */
+
+    #contact-options {
+        flex-direction: column;
+        height: 620px;
+        /* border: 1px solid red; */
+    }
+
+    #contact-container form {
+        width: 100%;
+    }
+
+    #contact-right {
+        align-items: center;
+    }
 }
 
 /*
