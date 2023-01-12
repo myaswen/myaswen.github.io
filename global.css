@@ -103,7 +103,7 @@ Section: Header
 --------------------------------------------------
 */
 
-#header-container {
+#header {
     margin-top: 60px;
     width: 100%;
     display: flex;
@@ -143,7 +143,7 @@ Section: Skills
 --------------------------------------------------
 */
 
-#skills-container {
+#skills {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -181,7 +181,7 @@ Section: Projects
 --------------------------------------------------
 */
 
-#projects-container {
+#projects {
     margin-top: 40px;
     width: 100%;
 }
@@ -216,7 +216,7 @@ Section: Contact
 --------------------------------------------------
 */
 
-#contact-container {
+#contact {
     margin-bottom: 80px;
     width: 100%;
 }
@@ -226,13 +226,13 @@ Section: Contact
     justify-content: space-between;
 }
 
-#contact-container form {
+#contact form {
     display: flex;
     flex-direction: column;
     width: 430px;
 }
 
-#contact-container button {
+#contact button {
     background-color: #1a1a1a;
     border: 1px solid #262626;
     border-radius: 6px;
@@ -241,7 +241,7 @@ Section: Contact
     font-size: 12px;
 }
 
-#contact-container button:hover {
+#contact button:hover {
     cursor: pointer;
     background:
         linear-gradient(#1a1a1a 0 0) padding-box,
@@ -249,7 +249,7 @@ Section: Contact
     border: 1px solid transparent;
 }
 
-#contact-container input {
+#contact input {
     background-color: #1a1a1a;
     border: 1px solid #262626;
     border-radius: 8px;
@@ -257,7 +257,7 @@ Section: Contact
     margin-bottom: 16px;
 }
 
-#contact-container input:focus {
+#contact input:focus {
     outline: none;
     background:
         linear-gradient(#1a1a1a 0 0) padding-box,
@@ -276,7 +276,7 @@ Section: Contact
     align-items: flex-end;
 }
 
-#contact-container textarea {
+#contact textarea {
     width: 100%;
     height: 216px;
     resize: none;
@@ -287,7 +287,7 @@ Section: Contact
     font-size: 14px;
 }
 
-#contact-container textarea:focus {
+#contact textarea:focus {
     outline: none;
 }
 
@@ -298,7 +298,7 @@ Section: Contact
     border: 1px solid transparent;
 }
 
-#contact-container label {
+#contact label {
     height: 0px;
     position: relative;
     top: 8px;
@@ -320,6 +320,7 @@ Section: Contact
 
 .contact-card {
     width: fit-content;
+    height: fit-content;
     padding: 6px;
     border-radius: 6px;
     border: 1px solid transparent;
@@ -365,7 +366,7 @@ Section: Dynamic sizing
 
     /* Header */
 
-    #header-container {
+    #header {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
@@ -401,11 +402,11 @@ Section: Dynamic sizing
         height: 680px;
     }
 
-    #contact-container form {
+    #contact form {
         width: 100%;
     }
 
-    #contact-container {
+    #contact {
         margin-bottom: 20px;
     }
 
